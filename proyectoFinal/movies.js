@@ -31,3 +31,5 @@ Peliculas.prototype.addMovie = function(movie){
 app.controller('Peliculas',function(){
     this.peliculas = Peliculas;  
 });
+
+alert("hola");
