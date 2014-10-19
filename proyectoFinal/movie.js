@@ -1,7 +1,5 @@
 var movie = angular.module('Pelicula',[]);
 
-var Pelicula = {};
-
 var Pelicula={};
 
 Pelicula.prototype.setPelicula = function(name,description,Image){
