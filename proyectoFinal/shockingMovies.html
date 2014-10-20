@@ -3,9 +3,11 @@
   <head>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <script type="text/javascript" src="angular.min.js"></script>
-    <script type="text/javascript" src="movies.js"></script>
+    <script type="text/javascript" src="movie.js"></script>
+      <script type="text/javascript" src="main.js"></script>
   </head>
   <body ng-app="app">
+      
     <div ng-controller="Peliculas as movies">
         <img ng-repeat="pelicula in movies.peliculas" title="{{pelicula.name}}" width="240px" height="360px"  ng-src="{{pelicula.Image}}"/>
     </div>
