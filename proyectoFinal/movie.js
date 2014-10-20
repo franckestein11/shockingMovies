@@ -19,3 +19,5 @@ Pelicula.prototype.getPelicula = function(){
 function IngresarPelicula(movie){
     Peliculas.push(movie);
 };
+
+IngresarPelicula({name:"Iron Man",Image:"http://pics.filmaffinity.com/Iron_Man_3-972235216-large.jpg"});
