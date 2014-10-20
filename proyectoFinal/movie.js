@@ -1,23 +1,28 @@
-var movie = angular.module('Pelicula',[]);
+var movie = angular.module('Pelicula',['app']);
 
-var Pelicula={};
-
-Pelicula.prototype.setPelicula = function(name,description,Image){
-    Pelicula = {
-        nombre: name,
-        
-        descripcion: description,
-        
-        Imagen:Image
-    }
+var Pelicula = function(name,description,Image){
+    this.nombre = name;
+    
+    this.descripcion = description;
+    
+    this.Imagen = Image;
+    
+    return this;
 };
 
-Pelicula.prototype.getPelicula = function(){
+Pelicula.prototype.setPelicula = function setPelicula(name,description,Image){
+
+        Pelicula.prototype.nombre = name;
+    
+        Pelicula.prototype.descripcion = description;
+    
+        Pelicula.prototype.Imagen = Image; 
+};
+
+Pelicula.prototype.getPelicula = function getPelicula(){
     return Pelicula;
 }
 
-function IngresarPelicula(movie){
-    Peliculas.push(movie);
+Pelicula.prototype.IngresarPelicula = function IngresarPelicula(movie){
+   Peliculas.push(movie);
 };
-
-IngresarPelicula({name:"Iron Man",Image:"http://pics.filmaffinity.com/Iron_Man_3-972235216-large.jpg"});

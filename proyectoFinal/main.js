@@ -1,4 +1,4 @@
-var app = angular.module('app', ['Pelicula']);
+var app = angular.module('app', []);
 
 var Peliculas  = [
     {name:"Iron Man",Image:"http://pics.filmaffinity.com/Iron_Man_3-972235216-large.jpg"},
