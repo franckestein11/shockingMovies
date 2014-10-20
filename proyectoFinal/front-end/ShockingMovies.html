@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<!-- saved from url=(0052)http://getbootstrap.com/2.3.2/examples/carousel.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+    
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Carousel Template · Bootstrap</title>
+    <title>Shocking Movies</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="C:\Users\Manuel.Manuel-PC\Desktop\proyectoFinal\bootstrap.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css" rel="stylesheet">
     <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet">
     <style>
 
@@ -18,7 +19,7 @@
 
     body {
       padding-bottom: 40px;
-      background-color:#ffffff;
+      color: #5a5a5a;
     }
 
 
@@ -82,31 +83,24 @@
     }
 
     .carousel-control {
-      border: 0;
       height: 80px;
       margin-top: 0;
       font-size: 120px;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
       background-color: transparent;
-    
+      border: 0;
       z-index: 10;
-        padding-left: 2cm;
-        
     }
 
     .carousel .item {
       height: 500px;
     }
     .carousel img {
+      position: absolute;
       top: 0;
-        position: absolute;
-        padding-left: 4cm;
       left: 0;
-     margin-left: auto;
-    margin-right: auto;
-      min-width: 82%;
+      min-width: 100%;
       height: 500px;
-     padding-top: 2cm;
     }
 
     .carousel-caption {
@@ -118,12 +112,10 @@
     }
     .carousel-caption h1,
     .carousel-caption .lead {
-    margin: 0;
-padding-left: 1cm;
-padding-top: 1cm;
-line-height: 1.25;
-color: #fff;
-text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
     }
     .carousel-caption .btn {
       margin-top: 10px;
@@ -260,7 +252,6 @@ text-shadow: 0 1px 1px rgba(0,0,0,.4);
       }
 
     }
-         #message { display:none;} 
     </style>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -294,28 +285,24 @@ text-shadow: 0 1px 1px rgba(0,0,0,.4);
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">ShockingMovies</a>
+            <span class="brand">Project name</span>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Inicio</a></li>
-                <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#about">Nosotros</a></li>
-    
-                  <div id="message">
-shockingMovies@gmail.com
-</div>
-                <li><a a href="#" onclick="alert(document.getElementById('message').innerHTML);">Contacto</a></li>
+                <li class="active"><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a >Contact</a></li>
                 <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
                 <li class="dropdown">
-                  <a href="http://getbootstrap.com/2.3.2/examples/carousel.html#" class="dropdown-toggle" data-toggle="dropdown">Peliculas <b class="caret"></b></a>
+                  <a  class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Estrenos</a></li>
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Populares</a></li>
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Clasicas</a></li>
+                    <li><a >Action</a></li>
+                    <li><a >Another action</a></li>
+                    <li><a >Something else here</a></li>
                     <li class="divider"></li>
                     <li class="nav-header">Nav header</li>
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Separated link</a></li>
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">One more separated link</a></li>
+                    <li><a >Separated link</a></li>
+                    <li><a >One more separated link</a></li>
                   </ul>
                 </li>
               </ul>
@@ -338,7 +325,7 @@ shockingMovies@gmail.com
             <div class="carousel-caption">
               <h1>Example headline.</h1>
               <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Sign up today</a>
+              <span class="btn btn-large btn-primary">Sign up today</span>
             </div>
           </div>
         </div>
@@ -381,19 +368,19 @@ shockingMovies@gmail.com
           <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFC0lEQVR4Xu3XV0ukQRCF4TIgCAZUMIIJBQMKBvDWn64XillRVEyYLsScMevSDQ6mRc+O+8lY79ws61RNW6cevmmzjo6OnowXCXwxgSzAfDEpymICgAGClABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFgMGAlABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFgMGAlABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFgMGAlABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFGQ/m7u7OxsbGLD8/37q7u99tdHt725aWlqyjo8MqKiri+wcHB7aysmI3NzdWUlJira2tlpeX9yUNSZ/3pV8qwaKMBnN6emqLi4t2cXFhpaWl78CE9ycnJ+3x8TEFJiAZGhqyoqIiq6qqipgCpPb29k9jT/q8T3+hHyjIWDD39/c2MDBglZWVtr+/b8XFxa/AhCfB6OhofHKcnZ2lwOzs7Nj8/Hzq/1NTU/H9/v5+29zcjE+exsZGq62tjf0PDw/W19dnOTk5337eD+w77SMzFszT05NdXl5aQUGBDQ4OWmFh4SswMzMzFtCE5U9PT6eArK+v29ramvX09MSvo7m5Odvd3Y1gcnNzLQA6Pj6OT6zDw0Pr6uqysrIy+1/npb3BhD8gY8G8zOktmI2NDQswwp3m+vo6omhra4tfPVtbW6/AzM7O2t7eXgrM7e2tjYyMWPi3rq7Ompub363kO89LeN9pH/crwYyPj1u4b7x9tbS0WHZ2ti0sLFhnZ6eVl5fHO875+XkEE17hqRUu0eGr6KN7Uah5Cyad89LeYMIf8CvBnJycxIWHV8CwurpqDQ0NVlNTE382PDz84aU3XI7D8q+urqy6ujo+jZqamqy+vv7VWt6C+dfzEt71txz3K8G8TCbcQ17eYcJ7f/uzenl5OSIJf4KHp8/ExES8EPf29sZL9fProzvT83vKed+ywYQ/5FeASTgz18cBxvX69eEBo2fmugMwrtevDw8YPTPXHYBxvX59eMDombnuAIzr9evDA0bPzHUHYFyvXx8eMHpmrjsA43r9+vCA0TNz3QEY1+vXhweMnpnrDsC4Xr8+PGD0zFx3AMb1+vXhAaNn5roDMK7Xrw8PGD0z1x2Acb1+fXjA6Jm57gCM6/XrwwNGz8x1B2Bcr18fHjB6Zq47AON6/frwgNEzc90BGNfr14cHjJ6Z6w7AuF6/Pjxg9MxcdwDG9fr14QGjZ+a6AzCu168PDxg9M9cdgHG9fn14wOiZue4AjOv168MDRs/MdQdgXK9fHx4wemauOwDjev368IDRM3PdARjX69eHB4yemesOwLhevz48YPTMXHcAxvX69eEBo2fmugMwrtevDw8YPTPXHYBxvX59eMDombnuAIzr9evDA0bPzHUHYFyvXx8eMHpmrjsA43r9+vCA0TNz3QEY1+vXhweMnpnrDsC4Xr8+PGD0zFx3AMb1+vXh/wBs3s6mncQfmwAAAABJRU5ErkJggg==" style="width: 140px; height: 140px;">
           <h2>Heading</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-          <p><a class="btn" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">View details »</a></p>
+          <p><a class="btn">View details »</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFC0lEQVR4Xu3XV0ukQRCF4TIgCAZUMIIJBQMKBvDWn64XillRVEyYLsScMevSDQ6mRc+O+8lY79ws61RNW6cevmmzjo6OnowXCXwxgSzAfDEpymICgAGClABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFgMGAlABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFgMGAlABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFgMGAlABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFGQ/m7u7OxsbGLD8/37q7u99tdHt725aWlqyjo8MqKiri+wcHB7aysmI3NzdWUlJira2tlpeX9yUNSZ/3pV8qwaKMBnN6emqLi4t2cXFhpaWl78CE9ycnJ+3x8TEFJiAZGhqyoqIiq6qqipgCpPb29k9jT/q8T3+hHyjIWDD39/c2MDBglZWVtr+/b8XFxa/AhCfB6OhofHKcnZ2lwOzs7Nj8/Hzq/1NTU/H9/v5+29zcjE+exsZGq62tjf0PDw/W19dnOTk5337eD+w77SMzFszT05NdXl5aQUGBDQ4OWmFh4SswMzMzFtCE5U9PT6eArK+v29ramvX09MSvo7m5Odvd3Y1gcnNzLQA6Pj6OT6zDw0Pr6uqysrIy+1/npb3BhD8gY8G8zOktmI2NDQswwp3m+vo6omhra4tfPVtbW6/AzM7O2t7eXgrM7e2tjYyMWPi3rq7Ompub363kO89LeN9pH/crwYyPj1u4b7x9tbS0WHZ2ti0sLFhnZ6eVl5fHO875+XkEE17hqRUu0eGr6KN7Uah5Cyad89LeYMIf8CvBnJycxIWHV8CwurpqDQ0NVlNTE382PDz84aU3XI7D8q+urqy6ujo+jZqamqy+vv7VWt6C+dfzEt71txz3K8G8TCbcQ17eYcJ7f/uzenl5OSIJf4KHp8/ExES8EPf29sZL9fProzvT83vKed+ywYQ/5FeASTgz18cBxvX69eEBo2fmugMwrtevDw8YPTPXHYBxvX59eMDombnuAIzr9evDA0bPzHUHYFyvXx8eMHpmrjsA43r9+vCA0TNz3QEY1+vXhweMnpnrDsC4Xr8+PGD0zFx3AMb1+vXhAaNn5roDMK7Xrw8PGD0z1x2Acb1+fXjA6Jm57gCM6/XrwwNGz8x1B2Bcr18fHjB6Zq47AON6/frwgNEzc90BGNfr14cHjJ6Z6w7AuF6/Pjxg9MxcdwDG9fr14QGjZ+a6AzCu168PDxg9M9cdgHG9fn14wOiZue4AjOv168MDRs/MdQdgXK9fHx4wemauOwDjev368IDRM3PdARjX69eHB4yemesOwLhevz48YPTMXHcAxvX69eEBo2fmugMwrtevDw8YPTPXHYBxvX59eMDombnuAIzr9evDA0bPzHUHYFyvXx8eMHpmrjsA43r9+vCA0TNz3QEY1+vXhweMnpnrDsC4Xr8+PGD0zFx3AMb1+vXh/wBs3s6mncQfmwAAAABJRU5ErkJggg==" style="width: 140px; height: 140px;">
           <h2>Heading</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">View details »</a></p>
+          <p><a class="btn">View details »</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFC0lEQVR4Xu3XV0ukQRCF4TIgCAZUMIIJBQMKBvDWn64XillRVEyYLsScMevSDQ6mRc+O+8lY79ws61RNW6cevmmzjo6OnowXCXwxgSzAfDEpymICgAGClABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFgMGAlABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFgMGAlABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFgMGAlABgpLgoBgwGpAQAI8VFMWAwICUAGCkuigGDASkBwEhxUQwYDEgJAEaKi2LAYEBKADBSXBQDBgNSAoCR4qIYMBiQEgCMFBfFGQ/m7u7OxsbGLD8/37q7u99tdHt725aWlqyjo8MqKiri+wcHB7aysmI3NzdWUlJira2tlpeX9yUNSZ/3pV8qwaKMBnN6emqLi4t2cXFhpaWl78CE9ycnJ+3x8TEFJiAZGhqyoqIiq6qqipgCpPb29k9jT/q8T3+hHyjIWDD39/c2MDBglZWVtr+/b8XFxa/AhCfB6OhofHKcnZ2lwOzs7Nj8/Hzq/1NTU/H9/v5+29zcjE+exsZGq62tjf0PDw/W19dnOTk5337eD+w77SMzFszT05NdXl5aQUGBDQ4OWmFh4SswMzMzFtCE5U9PT6eArK+v29ramvX09MSvo7m5Odvd3Y1gcnNzLQA6Pj6OT6zDw0Pr6uqysrIy+1/npb3BhD8gY8G8zOktmI2NDQswwp3m+vo6omhra4tfPVtbW6/AzM7O2t7eXgrM7e2tjYyMWPi3rq7Ompub363kO89LeN9pH/crwYyPj1u4b7x9tbS0WHZ2ti0sLFhnZ6eVl5fHO875+XkEE17hqRUu0eGr6KN7Uah5Cyad89LeYMIf8CvBnJycxIWHV8CwurpqDQ0NVlNTE382PDz84aU3XI7D8q+urqy6ujo+jZqamqy+vv7VWt6C+dfzEt71txz3K8G8TCbcQ17eYcJ7f/uzenl5OSIJf4KHp8/ExES8EPf29sZL9fProzvT83vKed+ywYQ/5FeASTgz18cBxvX69eEBo2fmugMwrtevDw8YPTPXHYBxvX59eMDombnuAIzr9evDA0bPzHUHYFyvXx8eMHpmrjsA43r9+vCA0TNz3QEY1+vXhweMnpnrDsC4Xr8+PGD0zFx3AMb1+vXhAaNn5roDMK7Xrw8PGD0z1x2Acb1+fXjA6Jm57gCM6/XrwwNGz8x1B2Bcr18fHjB6Zq47AON6/frwgNEzc90BGNfr14cHjJ6Z6w7AuF6/Pjxg9MxcdwDG9fr14QGjZ+a6AzCu168PDxg9M9cdgHG9fn14wOiZue4AjOv168MDRs/MdQdgXK9fHx4wemauOwDjev368IDRM3PdARjX69eHB4yemesOwLhevz48YPTMXHcAxvX69eEBo2fmugMwrtevDw8YPTPXHYBxvX59eMDombnuAIzr9evDA0bPzHUHYFyvXx8eMHpmrjsA43r9+vCA0TNz3QEY1+vXhweMnpnrDsC4Xr8+PGD0zFx3AMb1+vXh/wBs3s6mncQfmwAAAABJRU5ErkJggg==" style="width: 140px; height: 140px;">
           <h2>Heading</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">View details »</a></p>
+          <p><a class="btn" >View details »</a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
 
@@ -403,27 +390,25 @@ shockingMovies@gmail.com
       <hr class="featurette-divider">
 
       <div class="featurette">
-        <img class="featurette-image pull-right" src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/1798659_10204963748477118_2637129398752928994_n.jpg?oh=86f822b6a5a73cbbecc759d5c9ef86aa&oe=54B9E694&__gda__=1424805667_2bb527a5876421b6ae89621beda5cb02"  height="100" width="100">
-        <h2 class="featurette-heading">Manuel Amari <span class="muted"> (?</span></h2>
-        <p class="lead">asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd</p>
+        <img class="featurette-image pull-right" src="./Carousel Template · Bootstrap_files/browser-icon-chrome.png">
+        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="featurette">
-        <img class="featurette-image pull-left" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/10712816_862188903806242_2116111343729481062_n.jpg?oh=458e0b80c429dd7d451cc755cf37aaf4&oe=54BD8589&__gda__=1420450751_2d517715fb00c209d2a51c9c8dd3d2e9"
-             height="100" width="100">
-        <h2 class="featurette-heading">Franco Mariotti <span class="muted">Programador y diseñador (?</span></h2>
-        <p class="lead">dasdasdasddasdasdasddasdasdasddasdasdasddasdasdasddasdasdasddasdasdasddasdasdasddasdasdasddasdasdasd</p>
+        <img class="featurette-image pull-left" src="./Carousel Template · Bootstrap_files/browser-icon-firefox.png">
+        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="featurette">
-        <img class="featurette-image pull-right" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10556419_10203556969018648_7397986736022856469_n.jpg?oh=17debc71e2702767fe2e992d399784d0&oe=54F4F6A1&__gda__=1425369015_fd4c80d83870b0fadda9b009f0e629cc"
-             height="100" width="100">
-        <h2 class="featurette-heading">El gordo "dante puglisi" <span class="muted">Gorditah</span></h2>
-        <p class="lead">No hace nada y no invita la comida</p>
+        <img class="featurette-image pull-right" src="./Carousel Template · Bootstrap_files/browser-icon-safari.png">
+        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
       </div>
 
       <hr class="featurette-divider">
@@ -433,8 +418,8 @@ shockingMovies@gmail.com
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Back to top</a></p>
-        <p>© 2013 Company, Inc. · <a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Privacy</a> · <a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Terms</a></p>
+        <p class="pull-right"><a>Back to top</a></p>
+        <p>© 2014 Company, Inc. · <a>Privacy</a> · <a>Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
